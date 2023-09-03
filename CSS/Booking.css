@@ -1,0 +1,54 @@
+.bookingform {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #F8F4EA;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+    z-index: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    text-align: center;
+}
+#firstname {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#lastname {
+    width: 300px;
+    padding: 10px;
+    margin: 10px; 
+}
+#email {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#number {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#subject {
+    width: 325px;
+    padding: 10px;
+    margin: 10px;
+}
+#date {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#message {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

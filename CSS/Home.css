@@ -1,0 +1,275 @@
+/* effects for header */
+#logo {
+    width: 100px;
+    position: relative;
+    left: 150px;
+    border-radius: 50%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 10px;
+    background-color: #F8F4EA;
+    /* position: fixed; */
+    width: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+nav a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-style: inherit;
+    font-size: larger;
+    font-weight: bold;
+}
+nav {
+    padding-right: 100px;
+}
+/* effects for header */
+
+/* This is for section 1 */
+#bell {
+    max-height: 60vh;
+    width: 100%;
+    object-fit:cover;
+}
+#text1 {
+    color: #F8F4EA;
+    position: absolute;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-style: italic;
+    top: 350px;
+    left: 500px;
+}
+#text2 {
+    color: #F8F4EA;
+    position: absolute;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    font-style: italic;
+    top: 450px;
+    left: 350px;
+}
+/* This is for section 1 */
+
+/* This is for section 2 */
+.boxes {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    padding-top: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 50px;
+}
+.box1, .box2, .box3 {
+    font-style: italic;
+}
+.events, .portraits, .weddings {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10%;
+}
+.box1:hover {
+    transition: 0.5s ease;
+    transform: scale(1.1);
+}
+.box2:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.box3:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+/* This is for section 2 */
+
+/* This is for section 3 */
+.section3 {
+    background-color: #2E4F4F;
+    color: #F8F4EA;
+    width: 1200px;
+    height: 300px;
+    position: absolute;
+    top: 1375px;
+    left: 350px;
+}
+.s3h1 {
+    font-size: 40px;
+    padding: 40px;
+    padding-left: 80px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+.s3p1, .s3p2 {
+    text-align: center;
+    font-size: 22px;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+/* This is for section 3 */
+
+/* This is for section 4 */
+.cwedding {
+    max-height: 90vh;
+    width: 100%;
+    object-fit:cover;
+}
+.cmayer {
+    max-height: 90vh;
+    width: 100%;
+    object-fit:cover;
+}
+.coldman {
+    max-height: 90vh;
+    width: 100%;
+    object-fit:cover;
+}
+.cevent {
+    max-height: 90vh;
+    width: 100%;
+    object-fit:cover;
+}
+.csunset {
+    max-height: 90vh;
+    width: 100%;
+    object-fit:cover;
+}
+.section4 {
+    position: relative;
+    top: 430px;
+}
+/* This is for section 4 */
+
+/* This is for section 5 */
+.section5 {
+    display: grid;
+    margin-top: 500px;
+    justify-content: center;
+    grid-template-columns: 600px 600px;
+    grid-template-rows: 400px 400px;
+    grid-column-gap: 90px;
+    grid-row-gap: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', san-serif;
+}
+.wreview1 {
+    padding: 20px;
+}
+.wreview2 {
+    padding: 20px;
+}
+.preview {
+    padding: 20px;
+}
+.ereview {
+    padding: 20px;
+}
+/* This is for section 5 */
+
+/* This is for section 6 */
+.section6 {
+    position: absolute;
+    right: 850px;
+    top: 3450px;
+}
+.services {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border-style:dotted;
+}
+/* This is for section 6 */
+
+/* This is for section 7 */
+.mayer {
+    max-height: 60vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 200px;
+}
+/* This is for section 7 */
+
+/* This is for section 8 */
+.section8 {
+    display: grid;
+    width: 800px;
+    grid-template-columns: 200px 300px;
+    padding: 20px;
+    margin-top: 250px;
+    justify-content: center;
+    grid-column-gap: 200px;
+    margin-left: 430px;
+    padding-bottom: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+hr {
+    height: 2px;
+    background-color: black;
+    width: 50px;
+    margin-left: 0px;
+}
+.s8b1 {
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+#contact {
+    margin-bottom: 30px;
+}
+#inquiryForm {
+    position: relative;
+    left: 130px;
+    margin-bottom: 30px;
+}
+.s8b2f {
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+#firstName, #lastName {
+    margin-bottom: 20px;
+}
+#submit {
+    position: relative;
+    top: 15px;
+    left: 235px;
+}
+/* This is for section 8 */
+
+/* This is for footer */
+footer {
+    background-color: #2E4F4F;
+    padding: 30px;
+}
+.footericons {
+    justify-content: center;
+    display: flex;
+}
+.footericons a i {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2rem;
+    color: #F8F4EA;
+}
+.footerbottom {
+    text-align: center;
+    color: #F8F4EA;
+}
+#fb:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+#ig:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+#gmail:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+/* This is for footer */

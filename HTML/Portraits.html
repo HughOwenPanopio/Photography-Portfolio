@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portrait Album</title>
+    <link rel="stylesheet" href="/CSS/Portraits.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="icon" href="/imgaes/Logo/Hugh Crafted Image logo-02.jpg" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body style="background-color: #F8F4EA;">
+<!-- This is the header and nav bar -->
+    <header class="header">
+        <img id="logo" src="/imgaes/Logo/Hugh Crafted Image logo-02.jpg" alt="logo">
+        <h1>Hugh Crafted Image</h1>
+        <nav>
+            <a href="/Index.html">Home</a>
+            <a href="#">Travels</a>
+            <a href="#">Photos</a>
+            <a href="/HTML/About.html">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+<!-- This is the section 1 cover photo -->
+    <section class="section1">
+        <img id="mayer" src="/imgaes/Portrait/IMG_5625.JPG" alt="mayer">
+    </section>
+
+<!-- This is the section 2 for portrait review -->
+<section class="section2">
+    <div class="preview">
+        <h1>"</h1>
+        <h2>The portraits feel authentic and natural, showcasing the individuality of each person.</h2><br>
+        <h3>-Jasmine Mayer</h3>
+    </div>
+</section>
+
+<!-- This is the section 3 portait gallery -->
+<section class="section3">
+    <div class="div1">
+        <div><img src="/imgaes/Portrait/IMG_3462.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5584.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5585.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5588.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5589.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5590.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5591.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5592.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5593.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5595.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5596.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5623.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5601.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5609.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5604.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5608.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5612.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5616.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5618.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5632.JPG" alt="photo"></div>
+    </div>
+    <div class="div2">
+        <div><img src="/imgaes/Portrait/IMG_5594.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5615.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5627.JPG" alt="photo"></div>
+        <div><img src="/imgaes/Portrait/IMG_5631.JPG" alt="photo"></div>
+    </div> 
+</section>
+
+<!-- This is section 4 for pop up inquiry form -->
+<button id="openButton"><b>Book Now!</b></button>
+<section class="section4">
+    <div class="bookingform" id="popupForm">
+        <form class="booking" action="#">
+            <h1>Book Now!</h1>
+            <div class="inputbox">
+                <input type="text" name="first-name" id="firstname" placeholder="First Name" required>
+            </div>
+            <div class="inputbox">
+                <input type="text" name="last-name" id="lastname" placeholder="Last Name" required>
+            </div>
+            <div class="inputbox">
+                <input type="email" name="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="inputbox">
+                <input type="number" name="number" id="number" placeholder="Phone Number" required>
+            </div>
+            <div class="inputbox">
+                <select name="subject" id="subject">
+                    <option value="select">--Subject Selection--</option>
+                    <option value="weedding">Wedding</option>
+                    <option value="portrait">Portrait</option>
+                    <option value="event">Event</option>
+                    <option value="birthday">Birthday</option>
+                    <option value="debut">Debut</option>
+                    <option value="prenup">Pre-nuptial</option>
+                    <option value="runway">Runway</option>
+                </select>
+            </div>
+            <div class="inputbox">
+                <label for="date">Event Date</label>
+                <input type="date" name="date" id="date" min="2023-01-01" max="2050-12-31" required>
+            </div>
+            <div class="inputbox">
+                <textarea name="message" id="message" cols="25" rows="5" placeholder="Special Instruction"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            <button id="closeButton"><i class='bx bx-window-close'></i></button>
+        </form>
+    </div>
+</section>
+<section>
+    
+
+</section>
+
+<!-- This the footer -->
+    <footer>
+        <div class="footercontainer">
+            <div class="footericons">
+                <a href="#"><i class='bx bxl-facebook-circle' id="fb"></i></a>
+                <a href="#"><i class='bx bxl-instagram' id="ig"></i></a>
+                <a href="#"><i class='bx bxl-gmail' id="gmail"></i></a>
+            </div>
+        </div>
+        <div class="footerbottom">
+            <p><b>&copy All Rights Reserved 2023</b></p>
+        </div>
+    </footer>
+    <script src="/JS/Booking.js"></script>
+</body>
+</html>

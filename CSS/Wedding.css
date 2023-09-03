@@ -1,0 +1,298 @@
+/* This is for header */
+#logo {
+    width: 100px;
+    position: relative;
+    left: 150px;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 10px;
+    background-color: #F8F4EA;
+    /* position: fixed; */
+    width: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+nav a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-style: inherit;
+    font-size: larger;
+    font-weight: bold;
+}
+nav {
+    padding-right: 100px;
+}
+/* This is for header */
+
+/* This is for section 1 */
+#face {
+    max-height: 60vh;
+    width: 100%;
+    object-fit:cover;
+}
+/* This is for section 1 */
+
+/* This is for section 2 */
+.section2 {
+    display: grid;
+    margin-top: 50px;
+    justify-content: center;
+    grid-template-columns: 600px 600px;
+    grid-column-gap: 90px;
+    grid-row-gap: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', san-serif;
+}
+/* This is for section 2 */
+
+/* This is for section 3 */
+.div1 {
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px;
+    grid-template-rows: 500px 500px;
+    grid-column-gap: 120px;
+    grid-row-gap: 100px;
+    justify-content: center;
+    padding-top: 100px;
+}
+.div1 img {
+    width: auto;
+    height: 500px;
+}
+.div1 img:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+.div2 {
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: 400px 400px;
+    justify-content: center;
+    grid-column-gap: 500px;
+    grid-row-gap: 100px;
+    position: relative;
+    right: 80px;
+    padding-bottom: 200px;
+    margin-top: -500px;
+}
+.div2 img {
+    width: 600px;
+    height: 400px;
+}
+.div2 img:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+.div3 {
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-template-rows: 500px;
+    grid-column-gap: 110px;
+    grid-row-gap: 100px;
+    justify-content: center;
+    padding-top: 100px;
+    position: relative;
+    right: 30px;
+    margin-top: -200px;
+    padding-bottom: 200px;
+}
+.div3 img {
+    width: auto;
+    height: 500px;
+}
+.div3 img:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+.div4 {
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: 400px 400px;
+    justify-content: center;
+    grid-column-gap: 500px;
+    grid-row-gap: 100px;
+    position: relative;
+    right: 80px;
+    padding-bottom: 200px;
+    margin-top: -100px;
+}
+.div4 img {
+    width: 600px;
+    height: 400px;
+}
+.div4 img:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+.div5 {
+    display: grid;
+    grid-template-columns: 330px 330px 330px 330px;
+    grid-template-rows: 500px 500px;
+    grid-column-gap: 120px;
+    grid-row-gap: 100px;
+    justify-content: center;
+    margin-top: -100px;
+}
+.div5 img {
+    width: auto;
+    height: 500px;
+}
+.div5 img:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+.div6 {
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: 400px 400px;
+    justify-content: center;
+    grid-column-gap: 500px;
+    grid-row-gap: 100px;
+    position: relative;
+    right: 80px;
+    padding-bottom: 200px;
+    margin-top: -500px;
+}
+.div6 img {
+    width: 600px;
+    height: 400px;
+}
+.div6 img:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+.div7 {
+    display: grid;
+    grid-template-columns: 430px 430px;
+    grid-template-rows: 400px 400px;
+    justify-content: center;
+    grid-column-gap: 500px;
+    grid-row-gap: 100px;
+    position: relative;
+    right: 80px;
+    padding-bottom: 200px;
+    margin-top: -100px;
+}
+.div7 img {
+    width: 600px;
+    height: 400px;
+}
+.div7 img:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+/* This is for section 3 */
+
+/* This is for section 4 */
+.section4 {
+    position: relative;
+    bottom: 100px;
+    left: 850px;
+}
+#openButton {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border-style:dotted;
+    position: relative;
+    bottom: 100px;
+    left: 850px;
+}
+.openButton {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    border-style:dotted;
+}
+.bookingform {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 20%;
+    transform: translate(-50%, -50%);
+    background-color: #F8F4EA;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 3);
+    z-index: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    text-align: center;
+}
+#firstname {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#lastname {
+    width: 300px;
+    padding: 10px;
+    margin: 10px; 
+}
+#email {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#number {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#subject {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#date {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#message {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+}
+#closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+/* This is for section 4 */
+
+/* This is for footer */
+footer {
+    background-color: #2E4F4F;
+    padding: 30px;
+}
+.footericons {
+    justify-content: center;
+    display: flex;
+}
+.footericons a i {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2rem;
+    color: #F8F4EA;
+}
+.footerbottom {
+    text-align: center;
+    color: #F8F4EA;
+}
+#fb:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+#ig:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+#gmail:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+/* This is for footer */

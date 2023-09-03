@@ -1,0 +1,102 @@
+/* This is for header */
+#logo {
+    width: 100px;
+    position: relative;
+    left: 150px;
+    border-radius: 50%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 10px;
+    background-color: #F8F4EA;
+    /* position: fixed; */
+    width: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+nav a {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-style: inherit;
+    font-size: larger;
+    font-weight: bold;
+}
+nav {
+    padding-right: 100px;
+}
+/* This is for header */
+
+/* This is for section 1 */
+.div1 {
+    display: grid;
+    grid-template-columns: 330px 700px;
+    grid-template-rows: 500px;
+    justify-content: center;
+    text-align: justify;
+    grid-column-gap: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+h2 {
+    text-align: center;
+}
+p {
+    font-size: 20px;
+}
+#me {
+    width: auto;
+    height: 500px;
+    border-radius: 10%;
+}
+#hci {
+    width: auto;
+    height: 300px;
+    border-radius: 50%;
+}
+.div2 {
+    display: grid;
+    grid-template-columns: 330px 700px;
+    grid-template-rows: 500px;
+    justify-content: center;
+    text-align: justify;
+    grid-column-gap: 90px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* This is for footer */
+footer {
+    background-color: #2E4F4F;
+    padding: 30px;
+}
+.footericons {
+    justify-content: center;
+    display: flex;
+}
+.footericons a i {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 2rem;
+    color: #F8F4EA;
+}
+.footerbottom {
+    text-align: center;
+    color: #F8F4EA;
+}
+#fb:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+#ig:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+#gmail:hover {
+    transition: 0.5s;
+    transform: scale(1.5);
+}
+/* This is for footer */

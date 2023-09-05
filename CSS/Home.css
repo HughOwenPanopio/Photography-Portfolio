@@ -273,3 +273,11 @@ footer {
     transform: scale(1.5);
 }
 /* This is for footer */
+
+/* This is for the responsiveness of the site */
+@media (max-width: 768px){
+
+}
+@media (max-width: 480px){
+    
+}

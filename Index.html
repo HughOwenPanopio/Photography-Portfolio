@@ -16,13 +16,18 @@
     <header class="header">
         <img id="logo" src="/imgaes/Logo/Hugh Crafted Image logo-02.jpg" alt="logo">
         <h1>Hugh Crafted Image</h1>
-        <nav>
+        <nav class="nav-menu">
             <a href="#">Home</a>
             <a href="#">Travels</a>
             <a href="#">Photos</a>
             <a href="HTML/About.html">About</a>
             <a href="#">Contact</a>
         </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </header>
 
     <!-- Section 1 Cover Photo 1 with tagline -->
@@ -151,12 +156,12 @@
                     <input type="text" placeholder="Last Name" id="lastName" required>
                 </div>
                 <div>
-                    <input type="email" placeholder="Email Address" required>
+                    <input type="email" placeholder="Email Address" id="emialAddress" required>
                 </div>
                 <div>
                     <input type="number" name="contact-number" id="contactNumber" placeholder="Phone Number" required>
                 </div>
-                <div>
+                <div id="subject-container">
                     <p>Subject*</p>
                     <select name="subject" id="subject" required>
                         <option value="select">--Please Select--</option>
@@ -196,5 +201,7 @@
             <p><b>&copy All Rights Reserved 2023</b></p>
         </div>
     </footer>
+
+    <script src="./JS/burger-menu.js"></script>
 </body>
 </html>

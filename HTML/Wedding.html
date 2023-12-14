@@ -8,19 +8,25 @@
     <link rel="icon" href="/imgaes/Logo/Hugh Crafted Image logo-02.jpg" type="image/x-icon">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/CSS/lightbox.css">
 </head>
 <body style="background-color: #F8F4EA;">
     <!-- This is the header -->
     <header class="header">
         <img id="logo" src="/imgaes/Logo/Hugh Crafted Image logo-02.jpg" alt="logo">
         <h1>Hugh Crafted Image</h1>
-        <nav>
+        <nav class="nav-menu">
             <a href="/Index.html">Home</a>
             <a href="#">Travels</a>
             <a href="#">Photos</a>
             <a href="/HTML/About.html">About</a>
             <a href="#">Contact</a>
         </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </header>
 
     <!-- This is section 1 cover photo -->
@@ -45,47 +51,36 @@
     <!-- This is section 3 -->
     <section class="section3">
         <div class="div1">
-            <div><img src="/imgaes/Wedding/IMG_7147.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_7148.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/photo_2023-08-16_21-25-42.jpg" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_6774.JPG" alt=""></div>
-        </div>
-        <div class="div2">
-            <div><img src="/imgaes/Wedding/IMG_7139.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_7143.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_7145.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_7155.JPG" alt=""></div>
-        </div>
-        <div class="div3">
-            <div><img src="/imgaes/Wedding/IMG_6842.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_5930.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_6803.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_6838.JPG" alt=""></div>
-        </div>
-        <div class="div4">
-            <div><img src="/imgaes/Wedding/IMG_7272.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_6800.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_7376.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_7429.JPG" alt=""></div>
-        </div>
-        <div class="div5">
-            <div><img src="/imgaes/Wedding/IMG_5927.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_5928.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_5932.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_5933.JPG" alt=""></div>
-        </div>
-        <div class="div6">
-            <div><img src="/imgaes/Wedding/IMG_3575.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_3576.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_5924.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_5926.JPG" alt=""></div>
-        </div>
-        <div class="div7">
-            <div><img src="/imgaes/Wedding/IMG_5919.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_7428.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_7433.JPG" alt=""></div>
-            <div><img src="/imgaes/Wedding/IMG_6773.JPG" alt=""></div>
-        </div>
+            <ul>
+                <li><a href="/imgaes/Wedding/IMG_7147.JPG" data-lightbox="wedding" data-title="Image 1"><div><img src="/imgaes/Wedding/IMG_7147.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_7139.JPG" data-lightbox="wedding" data-title="Image 2"><div><img src="/imgaes/Wedding/IMG_7139.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_7148.JPG" data-lightbox="wedding" data-title="Image 3"><div><img src="/imgaes/Wedding/IMG_7148.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_7143.JPG" data-lightbox="wedding" data-title="Image 4"><div><img src="/imgaes/Wedding/IMG_7143.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/photo_2023-08-16_21-25-42.jpg" data-lightbox="wedding" data-title="Image 5"><div><img src="/imgaes/Wedding/photo_2023-08-16_21-25-42.jpg" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_7145.JPG" data-lightbox="wedding" data-title="Image 6"><div><img src="/imgaes/Wedding/IMG_7145.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_7155.JPG" data-lightbox="wedding" data-title="Image 7"><div><img src="/imgaes/Wedding/IMG_7155.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_6774.JPG" data-lightbox="wedding" data-title="Image 8"><div><img src="/imgaes/Wedding/IMG_6774.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_6842.JPG" data-lightbox="wedding" data-title="Image 9"><div><img src="/imgaes/Wedding/IMG_6842.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_7272.JPG" data-lightbox="wedding" data-title="Image 10"><div><img src="/imgaes/Wedding/IMG_7272.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_5930.JPG" data-lightbox="wedding" data-title="Image 11"><div><img src="/imgaes/Wedding/IMG_5930.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_6800.JPG" data-lightbox="wedding" data-title="Image 12"><div><img src="/imgaes/Wedding/IMG_6800.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_6803.JPG" data-lightbox="wedding" data-title="Image 13"><div><img src="/imgaes/Wedding/IMG_6803.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_7376.JPG" data-lightbox="wedding" data-title="Image 14"><div><img src="/imgaes/Wedding/IMG_7376.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_6838.JPG" data-lightbox="wedding" data-title="Image 15"><div><img src="/imgaes/Wedding/IMG_6838.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_7429.JPG" data-lightbox="wedding" data-title="Image 16"><div><img src="/imgaes/Wedding/IMG_7429.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_5927.JPG" data-lightbox="wedding" data-title="Image 17"><div><img src="/imgaes/Wedding/IMG_5927.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_3575.JPG" data-lightbox="wedding" data-title="Image 18"><div><img src="/imgaes/Wedding/IMG_3575.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_5928.JPG" data-lightbox="wedding" data-title="Image 19"><div><img src="/imgaes/Wedding/IMG_5928.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_3576.JPG" data-lightbox="wedding" data-title="Image 20"><div><img src="/imgaes/Wedding/IMG_3576.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_5932.JPG" data-lightbox="wedding" data-title="Image 21"><div><img src="/imgaes/Wedding/IMG_5932.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_5924.JPG" data-lightbox="wedding" data-title="Image 22"><div><img src="/imgaes/Wedding/IMG_5924.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_5933.JPG" data-lightbox="wedding" data-title="Image 23"><div><img src="/imgaes/Wedding/IMG_5933.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_5926.JPG" data-lightbox="wedding" data-title="Image 24"><div><img src="/imgaes/Wedding/IMG_5926.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_5919.JPG" data-lightbox="wedding" data-title="Image 25"><div><img src="/imgaes/Wedding/IMG_5919.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_7428.JPG" data-lightbox="wedding" data-title="Image 26"><div><img src="/imgaes/Wedding/IMG_7428.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_7433.JPG" data-lightbox="wedding" data-title="Image 27"><div><img src="/imgaes/Wedding/IMG_7433.JPG" alt=""></div></a></li>
+                <li><a href="/imgaes/Wedding/IMG_6773.JPG" data-lightbox="wedding" data-title="Image 28"><div><img src="/imgaes/Wedding/IMG_6773.JPG" alt=""></div></a></li>
+            </ul>
     </section>
 
     <!-- This is section 4 for bookings -->
@@ -123,7 +118,7 @@
                 <input type="date" name="date" id="date" min="2023-01-01" max="2050-12-31" required>
             </div>
             <div class="inputbox">
-                <textarea name="message" id="message" cols="25" rows="5" placeholder="Special Instruction"></textarea>
+                <textarea name="message" id="message" cols="25" rows="2" placeholder="Special Instruction"></textarea>
             </div>
             <div>
                 <button type="submit">Submit</button>
@@ -146,6 +141,8 @@
             <p><b>&copy All Rights Reserved 2023</b></p>
         </div>
     </footer>
+    <script src="/JS/burger-menu.js"></script>
     <script src="/JS/Booking.js"></script>
+    <script src="/JS/lightbox-plus-jquery.js"></script>
 </body>
 </html>

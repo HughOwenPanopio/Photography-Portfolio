@@ -14,20 +14,32 @@
     <header class="header">
         <img id="logo" src="/imgaes/Logo/Hugh Crafted Image logo-02.jpg" alt="logo">
         <h1>Hugh Crafted Image</h1>
-        <nav>
+        <nav class="nav-menu">
             <a href="/Index.html">Home</a>
-            <a href="#">Travels</a>
-            <a href="#">Photos</a>
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Photos
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/HTML/Events.html">Events</a></li>
+                  <li><a class="dropdown-item" href="/HTML/Portraits.html">Portraits</a></li>
+                  <li><a class="dropdown-item" href="/HTML/Wedding.html">Weddings</a></li>
+                </ul>
+              </div>
             <a href="#">About</a>
-            <a href="#">Contact</a>
         </nav>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
     </header>
 
     <!-- This is section 1 -->
     <section class="section1">
         <div class="div1">
-            <div><img id="me" src="/imgaes/Logo/DSC_8010.jpg" alt=""></div>
-            <div>
+            <div class="img-container"><img id="me" src="/imgaes/Logo/DSC_8010.jpg" alt=""></div>
+            <div class="bg-container">
                 <h2>About Hugh Owen Panopio</h2>
                 <p>Born in Cauayan City, Isabela, Philippines. Hugh first picked up a camera at age of nineteen - influenced by nature and street photography. After graduating college he made the move to Manila, where he naturally felt the transition to event photography.</p>
                 
@@ -37,8 +49,8 @@
             </div>
         </div>
         <div class="div2">
-            <div><img id="hci" src="/imgaes/Logo/Hugh Crafted Image logo-02.jpg" alt=""></div>
-            <div>
+            <div class="img-container2"><img id="hci" src="/imgaes/Logo/Hugh Crafted Image logo-02.jpg" alt=""></div>
+            <div class="bg-container">
                 <h2>About Hugh Crafted Image</h2>
                 <p>The story began when the founder, Hugh Owen Panopio, discovered the beauty of capturing emotions through his camera lens. As a passionate photographer with a keen eye for details, he realized that there's an ethereal quality in every moment — a story waiting to be told through images. The Hugh Crafted Image was founded and established year 2017</p>
 
@@ -60,5 +72,7 @@
             <p><b>&copy All Rights Reserved 2023</b></p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/JS/burger-menu.js"></script>
 </body>
 </html>

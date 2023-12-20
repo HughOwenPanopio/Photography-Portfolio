@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto:wght@500&display=swap');
+
+
 /* This is for header */
 #logo {
     width: 100px;
@@ -13,7 +16,9 @@ header {
     background-color: #F8F4EA;
     /* position: fixed; */
     width: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 nav a {
     padding-right: 30px;
@@ -26,12 +31,25 @@ nav a {
 nav {
     padding-right: 100px;
 }
+.dropdown button {
+    font-size: 19.2px;
+    padding: 0px;
+    padding-right: 30px;
+    color: black;
+    font-style: inherit;
+    font-size: larger;
+    font-weight: bold;
+}
+.dropdown-menu {
+    background-color: #F8F4EA !important;
+}
 
 /* Burger Menu */
 .nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 8rem !important;
 }
 .hamburger {
     display: none;
@@ -162,7 +180,9 @@ nav {
 .section2 {
     text-align: center;
     font-style: italic;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    /* font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     padding-top: 60px;
 }
 
@@ -318,6 +338,8 @@ ul li {
     position: relative;
     bottom: 100px;
     left: 850px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .bookingform {
     display: none;
@@ -330,7 +352,9 @@ ul li {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 3);
     z-index: 1000;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 #firstname {
@@ -383,6 +407,8 @@ ul li {
 footer {
     background-color: #2E4F4F;
     padding: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 .footericons {
     justify-content: center;

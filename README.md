@@ -10,11 +10,3 @@ HTML, CSS and JavaScript
   <a>
 </div>
 
-<div>
-  <h1>
-    <span style="color: #1F2B6C;">Al-</span><span style="color: #159EEC;">Ameer</span>
-  </h1>
-  <span style="color: #ff0000;">This text is red.</span>
-
-</div>
-

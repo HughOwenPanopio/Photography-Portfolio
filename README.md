@@ -9,7 +9,7 @@ HTML, CSS and JavaScript
   <img src="https://avatars.githubusercontent.com/u/143063497?v=4" alt="HughAvatar" width="80" height="80">
   <a>
   <a href="https://github.com/HughOwenPanopio">
-  <img src="[https://avatars.githubusercontent.com/u/143063497?v=4](https://avatars.githubusercontent.com/u/110381485?v=4)" alt="IanAvatar" width="80" height="80">
+  <img src="https://avatars.githubusercontent.com/u/110381485?v=4" alt="IanAvatar" width="80" height="80">
   <a>
 </div>
 

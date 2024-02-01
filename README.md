@@ -12,7 +12,7 @@ HTML, CSS and JavaScript
 
 <div>
   <h1>
-    Hello World
+    <span color="#1F2B6C">Al-</span><span color"#159EEC">Ameer</span>
   </h1>
 </div>
 

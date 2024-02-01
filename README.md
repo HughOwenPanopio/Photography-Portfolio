@@ -5,6 +5,6 @@ HTML, CSS and JavaScript
 
 # Contributor:
 <div>
-  <img src="https://avatars.githubusercontent.com/u/143063497?v=4" alt="HughAvatar" width="30" height="30">
+  <img src="https://avatars.githubusercontent.com/u/143063497?v=4" alt="HughAvatar" width="50" height="50" border-radius="50">
 </div>
 
